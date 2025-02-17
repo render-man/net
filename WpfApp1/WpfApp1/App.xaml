@@ -1,0 +1,16 @@
+﻿<Application x:Class="WpfApp1.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfApp1"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+
+        <Style x:Key="cell" TargetType="DataGridCell">
+        </Style>
+
+        <Style x:Key="gh" TargetType="DataGridColumnHeader">
+        </Style>
+
+    </Application.Resources>
+</Application>
